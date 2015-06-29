@@ -31,6 +31,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Exe.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SE_Report.Forms.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Data Structures">
       <HintPath>Resources\Data Structures.dll</HintPath>
@@ -176,6 +182,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Exe.ico" />
     <Content Include="Icons\Back.png" />
     <Content Include="Icons\Bin.png" />
     <Content Include="Icons\Developers.png" />
