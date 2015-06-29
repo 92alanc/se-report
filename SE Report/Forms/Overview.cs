@@ -108,7 +108,7 @@ namespace SE_Report.Forms
             }
             catch (ArgumentOutOfRangeException)
             {
-
+                // Left it blank on purpose
             }
         }
 
@@ -235,6 +235,8 @@ namespace SE_Report.Forms
                 ProjectsTable.Columns[i].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
             }
 
+            ProjectsTable.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+
             ProjectsTable.Sort(ProjectsTable.Columns[2], ListSortDirection.Descending);
 
             // Columns
@@ -315,7 +317,7 @@ namespace SE_Report.Forms
                 }
                 else if (ProjectsTable[1, i].Value.Equals("QE0 Gate"))
                 {
-                    ProjectsTable.Rows[i].Cells[1].Style.BackColor = Color.Chocolate;
+                    ProjectsTable.Rows[i].Cells[1].Style.BackColor = Color.Purple;
                     ProjectsTable.Rows[i].Cells[1].Style.ForeColor = Color.White;
                 }
 
@@ -429,9 +431,7 @@ namespace SE_Report.Forms
         /// <param name="e"></param>
         private void SearchButton_Click(object sender, EventArgs e)
         {
-
             search();
-
         }
 
         /// <summary>

@@ -71,6 +71,7 @@ namespace SE_Report.Forms
             for (int i = 0; i < Table.ColumnCount; i++)
             {
                 Table.Columns[i].ReadOnly = true;
+                Table.Columns[i].SortMode = DataGridViewColumnSortMode.NotSortable;
                 if (i != 3)
                 {
                     Table.Columns[i].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
@@ -79,8 +80,10 @@ namespace SE_Report.Forms
                 {
                     Table.Columns[i].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
                 }
-
             }
+
+            Table.DefaultCellStyle.WrapMode = DataGridViewTriState.True;
+            Table.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
 
             DataGridViewColumn status = Table.Columns[0]; // status
             DataGridViewColumn testType = Table.Columns[1]; // test type
@@ -105,11 +108,6 @@ namespace SE_Report.Forms
 
             Table.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             Table.RowHeadersWidth = 60;
-
-            for (int i = 0; i < Table.RowCount; i++)
-            {
-                Table.Rows[i].Height = 25;
-            }
             
         }
 

@@ -20,6 +20,7 @@ namespace SE_Report.Forms
             sanitySettings();
             unitSettings();
             issuesSettings();
+            qe0Settings();
         }
 
         /// <summary>

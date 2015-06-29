@@ -273,7 +273,7 @@
             this.SearchButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SearchButton.Location = new System.Drawing.Point(663, 12);
             this.SearchButton.Name = "SearchButton";
-            this.SearchButton.Size = new System.Drawing.Size(75, 27);
+            this.SearchButton.Size = new System.Drawing.Size(76, 27);
             this.SearchButton.TabIndex = 103;
             this.SearchButton.Text = "Search";
             this.SearchButton.UseVisualStyleBackColor = true;
