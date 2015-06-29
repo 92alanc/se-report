@@ -8,6 +8,9 @@ using System.Xml;
 
 namespace SE_Report.Resources
 {
+    /// <summary>
+    /// A project
+    /// </summary>
     class Project
     {
 
