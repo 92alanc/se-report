@@ -132,7 +132,7 @@ namespace SE_Report.Forms
             {
                 foreach (XmlElement element1 in xml.GetElementsByTagName("status"))
                 {
-                    if (element1.NextSibling.NextSibling.InnerText.Equals(timeStarted))
+                    if (element1.NextSibling.NextSibling.InnerText.Trim().Equals(timeStarted))
                     {
                         element1.InnerText = "Cancelled";
                     }
@@ -296,7 +296,7 @@ namespace SE_Report.Forms
             xml.Load(dir);
             foreach (XmlElement element1 in xml.GetElementsByTagName("creationDate"))
             {
-                if (element1.InnerText.Equals(getCreationDate().ToString()) && element1.NextSibling.InnerText.Equals(PathBox.Text) && element1.PreviousSibling.InnerText.Equals(timeStarted))
+                if (element1.InnerText.Trim().Equals(getCreationDate().ToString()) && element1.NextSibling.InnerText.Trim().Equals(PathBox.Text) && element1.PreviousSibling.InnerText.Trim().Equals(timeStarted))
                 {
                     element1.PreviousSibling.PreviousSibling.PreviousSibling.InnerText = xmlResult();
                     break;
@@ -614,7 +614,7 @@ namespace SE_Report.Forms
                 {
                     if (node.Name.Equals(suffix))
                     {
-                        ntcode = node.InnerText.ToString();
+                        ntcode = node.InnerText.Trim();
                     }
                 }
 

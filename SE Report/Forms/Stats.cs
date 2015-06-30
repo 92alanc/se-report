@@ -72,11 +72,11 @@ namespace SE_Report.Forms
 
             foreach (XmlElement element in xml.GetElementsByTagName("testType"))
             {
-                switch (element.InnerText)
+                switch (element.InnerText.Trim())
                 {
                     case "Sanity":
 
-                        switch (element.PreviousSibling.InnerText)
+                        switch (element.PreviousSibling.InnerText.Trim())
                         {
                             case "ALL PASSED":
                                 sanityP++;
@@ -92,7 +92,7 @@ namespace SE_Report.Forms
                         break;
                     case "Unit":
 
-                        switch (element.PreviousSibling.InnerText)
+                        switch (element.PreviousSibling.InnerText.Trim())
                         {
                             case "ALL PASSED":
                                 unitP++;
@@ -108,7 +108,7 @@ namespace SE_Report.Forms
                         break;
                     case "Issues DB":
 
-                        switch (element.PreviousSibling.InnerText)
+                        switch (element.PreviousSibling.InnerText.Trim())
                         {
                             case "ALL PASSED":
                                 issuesP++;
@@ -124,7 +124,7 @@ namespace SE_Report.Forms
                         break;
                     case "QE0 Gate":
 
-                        switch (element.PreviousSibling.InnerText)
+                        switch (element.PreviousSibling.InnerText.Trim())
                         {
                             case "ALL PASSED":
                                 qeP++;

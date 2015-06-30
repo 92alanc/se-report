@@ -28,9 +28,9 @@ namespace SE_Report.Resources
             {
                 foreach (XmlElement element1 in xml.GetElementsByTagName("id"))
                 {
-                    if (element1.InnerText.Equals(Environment.UserName))
+                    if (element1.InnerText.Trim().Equals(Environment.UserName))
                     {
-                        name = element1.NextSibling.InnerText;
+                        name = element1.NextSibling.InnerText.Trim();
                     }
                 }
             }
@@ -45,8 +45,8 @@ namespace SE_Report.Resources
             xml.Load(dir);
             foreach (XmlElement element1 in xml.GetElementsByTagName("id"))
             {
-                Tester tester = new Tester(element1.InnerText);
-                if (element1.NextSibling.NextSibling.InnerText.Equals("Available"))
+                Tester tester = new Tester(element1.InnerText.Trim());
+                if (element1.NextSibling.NextSibling.InnerText.Trim().Equals("Available"))
                 {
                     tester.setAvailability(true); 
                 }
@@ -84,7 +84,7 @@ namespace SE_Report.Resources
             xml.Load(dir);
             foreach (XmlElement element in xml.GetElementsByTagName("status"))
             {
-                if (element.PreviousSibling.PreviousSibling.InnerText.Equals(Environment.UserName))
+                if (element.PreviousSibling.PreviousSibling.InnerText.Trim().Equals(Environment.UserName))
                 {
                     element.InnerText = getTester().getAvailability();
                     break;

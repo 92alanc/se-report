@@ -180,15 +180,15 @@ namespace SE_Report.Forms
             {
                 foreach (XmlElement element in testers.GetElementsByTagName("status"))
                 {
-                    switch (element.InnerText)
+                    switch (element.InnerText.Trim())
                     {
                         case "Available":
 
-                            TestersTable[0, a].Value = element.PreviousSibling.InnerText;
+                            TestersTable[0, a].Value = element.PreviousSibling.InnerText.Trim();
                             a++;
                             break;
                         case "Busy":
-                            TestersTable[1, b].Value = element.PreviousSibling.InnerText;
+                            TestersTable[1, b].Value = element.PreviousSibling.InnerText.Trim();
                             b++;
                             break;
                     }
@@ -379,7 +379,7 @@ namespace SE_Report.Forms
                         {
                             foreach (XmlElement element in testers.GetElementsByTagName("id")) // Change the tester's availability
                             {
-                                if (element.InnerText.Equals(user))
+                                if (element.InnerText.Trim().Equals(user))
                                 {
                                     element.NextSibling.NextSibling.InnerText = "Available";
                                     break;
@@ -391,7 +391,7 @@ namespace SE_Report.Forms
 
                         foreach (XmlElement element1 in xml.GetElementsByTagName("project")) // Remove the project from xml
                         {
-                            if (element1.ChildNodes.Item(2).InnerText.Equals(row.Cells[2].Value))
+                            if (element1.ChildNodes.Item(2).InnerText.Trim().Equals(row.Cells[2].Value))
                             {
                                 root.RemoveChild(element1);
                                 break;

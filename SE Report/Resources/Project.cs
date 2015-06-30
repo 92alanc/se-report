@@ -141,7 +141,7 @@ namespace SE_Report.Resources
             {
                 foreach (XmlElement element1 in xml.GetElementsByTagName("creationDate"))
                 {
-                    if (element1.InnerText.Equals(creationDate) && element1.PreviousSibling.PreviousSibling.InnerText.Equals(testType))
+                    if (element1.InnerText.Trim().Equals(creationDate) && element1.PreviousSibling.PreviousSibling.InnerText.Trim().Equals(testType))
                     {
                         element.FirstChild.InnerText = status;
                     }
