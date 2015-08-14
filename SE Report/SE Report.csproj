@@ -106,6 +106,12 @@
     <Compile Include="Forms\QE0.Designer.cs">
       <DependentUpon>QE0.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Reminder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Reminder.Designer.cs">
+      <DependentUpon>Reminder.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Sanity.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -149,6 +155,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\QE0.resx">
       <DependentUpon>QE0.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Reminder.resx">
+      <DependentUpon>Reminder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Sanity.resx">
       <DependentUpon>Sanity.cs</DependentUpon>

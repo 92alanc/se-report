@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
 using System.Text;
-using System.Reflection;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
@@ -155,6 +149,9 @@ namespace SE_Report.Forms
                 PDF();
                 CreateTemplate();
                 projectFinished();
+                Reminder reminder = new Reminder();
+                reminder.Show();
+                reminder.showText(1, this.Text);
             }
 
         }
@@ -167,55 +164,7 @@ namespace SE_Report.Forms
         {
             DateTime creation = File.GetCreationTime(PathBox.Text);
             DateTimeFormatInfo format = (new CultureInfo("en-GB")).DateTimeFormat;
-            string creationDate = creation.ToString("G", format);
-            return creationDate;
-        }
-
-        /*
-         * Looks for the current project in the pending list
-         */
-        private bool projectExists(string creationDate)
-        {
-            XmlDocument pending = new XmlDocument();
-            string pendingDir = @"\\lgmcfs-sp\SW\CM\SE\TOOLS\NAO MEXER\Pending.xml";
-            pending.Load(pendingDir);
-            XmlNode root = pending.SelectSingleNode("projects");
-            bool found = false;
-            string cd = null;
-
-            try
-            {
-
-                foreach (XmlElement element in pending.GetElementsByTagName("project"))
-                {
-                    cd = element.ChildNodes.Item(2).InnerText.Trim();
-                    if (cd.Trim().Equals(creationDate))
-                    {
-                        found = true;
-                        root.RemoveChild(element);
-                        break;
-                    }
-                }
-
-            }
-            catch (InvalidOperationException e)
-            {
-                MessageBox.Show(e.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-
-
-            pending.Save(pendingDir);
-
-            if (!found)
-            {
-                MessageBox.Show("This project does not exist", "Message", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                return false;
-            }
-            else
-            {
-                return true;
-            }
-
+            return creation.ToString("G", format);
         }
 
         /*
@@ -452,6 +401,9 @@ namespace SE_Report.Forms
                 NotFixedDisplay.Show();
                 LeftDisplay.Show();
                 newProject(getCreationDate());
+                Reminder reminder = new Reminder();
+                reminder.Show();
+                reminder.showText(0, this.Text);
             }
         }
 

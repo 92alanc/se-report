@@ -512,6 +512,7 @@
             this.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(5);
+            this.MinimumSize = new System.Drawing.Size(1074, 726);
             this.Name = "Sanity";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

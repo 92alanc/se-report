@@ -246,6 +246,9 @@ namespace SE_Report.Forms
             GetData();
             start = DateTime.Now;
             newProject(getCreationDate());
+            Reminder reminder = new Reminder();
+            reminder.Show();
+            reminder.showText(0, "qe0");
         }
 
         /// <summary>
@@ -278,6 +281,9 @@ namespace SE_Report.Forms
             else
             {
                 ResultsGroup.Visible = true;
+                Reminder reminder = new Reminder();
+                reminder.Show();
+                reminder.showText(1, "qe0");
             }
         }
 
@@ -336,53 +342,6 @@ namespace SE_Report.Forms
         }
 
         /*
-         * Looks for the current project in the pending list
-         */
-        private bool projectExists(string creationDate)
-        {
-            XmlDocument pending = new XmlDocument();
-            string pendingDir = @"\\lgmcfs-sp\SW\CM\SE\TOOLS\NAO MEXER\Pending.xml";
-            pending.Load(pendingDir);
-            XmlNode root = pending.SelectSingleNode("projects");
-            bool found = false;
-            string cd = null;
-
-            try
-            {
-
-                foreach (XmlElement element in pending.GetElementsByTagName("project"))
-                {
-                    cd = element.ChildNodes.Item(2).InnerText.Trim();
-                    if (cd.Trim().Equals(creationDate))
-                    {
-                        found = true;
-                        root.RemoveChild(element);
-                        break;
-                    }
-                }
-
-            }
-            catch (InvalidOperationException e)
-            {
-                MessageBox.Show(e.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-
-
-            pending.Save(pendingDir);
-
-            if (!found)
-            {
-                MessageBox.Show("This project does not exist", "Message", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                return false;
-            }
-            else
-            {
-                return true;
-            }
-
-        }
-
-        /*
          * Sets the current project as a new project
          */
         private void newProject(string creationDate)
@@ -406,8 +365,7 @@ namespace SE_Report.Forms
         {
             DateTime creation = File.GetCreationTime(PathBox.Text);
             DateTimeFormatInfo format = (new CultureInfo("en-GB")).DateTimeFormat;
-            string creationDate = creation.ToString("G", format);
-            return creationDate;
+            return creation.ToString("G", format);
         }
 
         /*

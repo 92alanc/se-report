@@ -237,8 +237,6 @@ namespace SE_Report.Forms
 
             ProjectsTable.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
 
-            ProjectsTable.Sort(ProjectsTable.Columns[2], ListSortDirection.Descending);
-
             // Columns
             ProjectsTable.Columns[0].Width = 120; // Status
             ProjectsTable.Columns[0].SortMode = DataGridViewColumnSortMode.NotSortable;
@@ -247,7 +245,8 @@ namespace SE_Report.Forms
             ProjectsTable.Columns[1].SortMode = DataGridViewColumnSortMode.NotSortable;
 
             ProjectsTable.Columns[2].Width = 170; // Time started
-            ProjectsTable.Columns[2].SortMode = DataGridViewColumnSortMode.NotSortable;
+            ProjectsTable.Columns[2].ValueType = typeof(DateTime);
+            ProjectsTable.Columns[2].SortMode = DataGridViewColumnSortMode.Programmatic;
 
             ProjectsTable.Columns[3].Width = 170; // Creation date
             ProjectsTable.Columns[3].SortMode = DataGridViewColumnSortMode.NotSortable;

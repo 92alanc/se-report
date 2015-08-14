@@ -82,18 +82,26 @@ namespace SE_Report.Forms
                 }
             }
 
+            for (int i = 0; i < Table.RowCount; i++)
+            {
+                if (Table[4, i].Value.ToString().Contains(">>>"))
+                {
+                    Table[4, i].Value = Table[4, i].Value.ToString().Replace(">>>", "");
+                }
+            }
+
             Table.DefaultCellStyle.WrapMode = DataGridViewTriState.True;
             Table.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
 
-            DataGridViewColumn status = Table.Columns[0]; // status
+            DataGridViewColumn status = Table.Columns[0]; // level
             DataGridViewColumn testType = Table.Columns[1]; // test type
             DataGridViewColumn creationDate = Table.Columns[2]; // creation date
             DataGridViewColumn chronos = Table.Columns[3]; // chronos
-            DataGridViewColumn assignedTo = Table.Columns[4]; // assigned to
+            DataGridViewColumn unit = Table.Columns[4]; // unit
 
             status.DefaultCellStyle.BackColor = Color.Lime;
             status.Width = 120;
-            status.HeaderText = "STATUS";
+            status.HeaderText = "LEVEL";
 
             testType.Width = 110;
             testType.HeaderText = "TEST TYPE";
@@ -104,7 +112,9 @@ namespace SE_Report.Forms
             chronos.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             chronos.HeaderText = "CHRONOS PATH";
 
-            assignedTo.Visible = false;
+            unit.Width = 210;
+            unit.HeaderText = "UNIT";
+            unit.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
 
             Table.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             Table.RowHeadersWidth = 60;

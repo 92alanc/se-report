@@ -205,6 +205,9 @@ namespace SE_Report.Forms
                 PDF();
                 CreateTemplate();
                 projectFinished();
+                Reminder reminder = new Reminder();
+                reminder.Show();
+                reminder.showText(1, this.Text);
             }
         }
 
@@ -570,6 +573,9 @@ namespace SE_Report.Forms
                 NotTestedDisplay.Show();
                 LeftDisplay.Show();
                 newProject(CreationDateBox.Text);
+                Reminder reminder = new Reminder();
+                reminder.Show();
+                reminder.showText(0, this.Text);
             }
         }
 
@@ -648,8 +654,7 @@ namespace SE_Report.Forms
         {
             DateTime creation = File.GetCreationTime(PathBox.Text);
             DateTimeFormatInfo format = (new CultureInfo("en-GB")).DateTimeFormat;
-            string creationDate = creation.ToString("G", format);
-            return creationDate;
+            return creation.ToString("G", format);
         }
 
         /*

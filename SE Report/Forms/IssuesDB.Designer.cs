@@ -52,6 +52,7 @@
             this.PathGroup = new System.Windows.Forms.GroupBox();
             this.PathBox = new System.Windows.Forms.TextBox();
             this.SWGroup = new System.Windows.Forms.GroupBox();
+            this.CreationDateBox = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.VersionBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -69,7 +70,6 @@
             this.LinksButton = new System.Windows.Forms.Button();
             this.BackButton = new System.Windows.Forms.Button();
             this.GPRIButton = new System.Windows.Forms.Button();
-            this.CreationDateBox = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.Table)).BeginInit();
             this.PathGroup.SuspendLayout();
             this.SWGroup.SuspendLayout();
@@ -328,6 +328,16 @@
             this.SWGroup.TabStop = false;
             this.SWGroup.Text = "Software info";
             // 
+            // CreationDateBox
+            // 
+            this.CreationDateBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.CreationDateBox.BackColor = System.Drawing.Color.White;
+            this.CreationDateBox.Location = new System.Drawing.Point(867, 48);
+            this.CreationDateBox.Name = "CreationDateBox";
+            this.CreationDateBox.ReadOnly = true;
+            this.CreationDateBox.Size = new System.Drawing.Size(160, 27);
+            this.CreationDateBox.TabIndex = 21;
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -511,16 +521,6 @@
             this.GPRIButton.UseVisualStyleBackColor = true;
             this.GPRIButton.Click += new System.EventHandler(this.GPRIButton_Click);
             // 
-            // CreationDateBox
-            // 
-            this.CreationDateBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.CreationDateBox.BackColor = System.Drawing.Color.White;
-            this.CreationDateBox.Location = new System.Drawing.Point(867, 48);
-            this.CreationDateBox.Name = "CreationDateBox";
-            this.CreationDateBox.ReadOnly = true;
-            this.CreationDateBox.Size = new System.Drawing.Size(160, 27);
-            this.CreationDateBox.TabIndex = 21;
-            // 
             // IssuesDB
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
@@ -555,6 +555,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MinimumSize = new System.Drawing.Size(1074, 726);
             this.Name = "IssuesDB";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

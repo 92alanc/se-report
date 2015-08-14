@@ -32,6 +32,7 @@
             this.SanityButton = new System.Windows.Forms.RadioButton();
             this.UnitButton = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.QE0Button = new System.Windows.Forms.RadioButton();
             this.IssuesDBButton = new System.Windows.Forms.RadioButton();
             this.LaunchButton = new System.Windows.Forms.Button();
             this.DevButton = new System.Windows.Forms.Button();
@@ -41,7 +42,6 @@
             this.PendingButton = new System.Windows.Forms.RadioButton();
             this.OverviewButton = new System.Windows.Forms.RadioButton();
             this.ExitButton = new System.Windows.Forms.Button();
-            this.QE0Button = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -79,6 +79,16 @@
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Select a test";
+            // 
+            // QE0Button
+            // 
+            this.QE0Button.AutoSize = true;
+            this.QE0Button.Location = new System.Drawing.Point(6, 119);
+            this.QE0Button.Name = "QE0Button";
+            this.QE0Button.Size = new System.Drawing.Size(106, 25);
+            this.QE0Button.TabIndex = 4;
+            this.QE0Button.Text = "QE0 Gate";
+            this.QE0Button.UseVisualStyleBackColor = true;
             // 
             // IssuesDBButton
             // 
@@ -178,16 +188,6 @@
             this.ExitButton.TabIndex = 7;
             this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
-            // QE0Button
-            // 
-            this.QE0Button.AutoSize = true;
-            this.QE0Button.Location = new System.Drawing.Point(6, 119);
-            this.QE0Button.Name = "QE0Button";
-            this.QE0Button.Size = new System.Drawing.Size(106, 25);
-            this.QE0Button.TabIndex = 4;
-            this.QE0Button.Text = "QE0 Gate";
-            this.QE0Button.UseVisualStyleBackColor = true;
-            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
@@ -205,6 +205,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(5);
             this.MaximizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(396, 377);
             this.Name = "Menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main menu";
