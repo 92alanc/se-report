@@ -132,6 +132,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\IO.cs" />
     <Compile Include="Resources\Project.cs" />
     <Compile Include="Resources\Tester.cs" />
     <Compile Include="Resources\TesterList.cs" />

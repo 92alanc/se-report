@@ -35,9 +35,9 @@ namespace SE_Report.Forms
                 InitializeComponent();
                 TestCases();
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                MessageBox.Show("Network address not found. Please check your network and try again", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(e.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -208,6 +208,7 @@ namespace SE_Report.Forms
                 Reminder reminder = new Reminder();
                 reminder.Show();
                 reminder.showText(1, this.Text);
+                checkDirectory();
             }
         }
 
@@ -576,6 +577,7 @@ namespace SE_Report.Forms
                 Reminder reminder = new Reminder();
                 reminder.Show();
                 reminder.showText(0, this.Text);
+                IO.copyToDesktop(PathBox.Text);
             }
         }
 
@@ -982,6 +984,30 @@ namespace SE_Report.Forms
                 else
                 {
                     projectCancelled();
+                }
+            }
+        }
+
+        /// <summary>
+        /// Checks if the chronos directory is ready for the report
+        /// </summary>
+        private void checkDirectory()
+        {
+            if (IO.dir_isReady(PathBox.Text))
+            {
+                DialogResult result = MessageBox.Show("This directory is ready to receive your report. Would you like to copy it to Chronos?", "Information", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                if (result == DialogResult.Yes)
+                {
+                    IO.copyToChronos(IO.getTargetFolder());
+                }
+            }
+            else
+            {
+                DialogResult result = MessageBox.Show("This directory is not ready to receive your report. Would you like to create the subdirectories and copy your report to Chronos?", "Information", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                if (result == DialogResult.Yes)
+                {
+                    IO.createDirectories(this.Text);
+                    IO.copyToChronos(IO.getTargetFolder());
                 }
             }
         }

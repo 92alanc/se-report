@@ -1,21 +1,17 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
 using SE_Report.Resources;
+using System.ComponentModel;
 
 namespace SE_Report.Forms
 {
     public partial class Overview : Form
     {
+
         public Overview()
         {
             InitializeComponent();
@@ -94,6 +90,7 @@ namespace SE_Report.Forms
                         {
                             ProjectsTable.DataSource = ds.Tables[0];
                             projectsSettings();
+                            ProjectsTable.FirstDisplayedScrollingRowIndex = ProjectsTable.RowCount - 1;
                         }
                     }
                     catch (XmlException e)
@@ -104,7 +101,7 @@ namespace SE_Report.Forms
             }
             catch (IndexOutOfRangeException e)
             {
-                MessageBox.Show(e.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                // Irrelevant exception: left blank on purpose
             }
             catch (ArgumentOutOfRangeException)
             {
@@ -210,7 +207,7 @@ namespace SE_Report.Forms
             }
             catch (IndexOutOfRangeException e)
             {
-                MessageBox.Show(e.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                // Irrelevant exception: left blank on purpose
             }
             catch (ArgumentOutOfRangeException e)
             {
@@ -238,33 +235,41 @@ namespace SE_Report.Forms
             ProjectsTable.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
 
             // Columns
-            ProjectsTable.Columns[0].Width = 120; // Status
-            ProjectsTable.Columns[0].SortMode = DataGridViewColumnSortMode.NotSortable;
+            DataGridViewColumn status = ProjectsTable.Columns[0]; // Status
+            status.Width = 120;
+            status.SortMode = DataGridViewColumnSortMode.NotSortable;
 
-            ProjectsTable.Columns[1].Width = 170; // Test type
-            ProjectsTable.Columns[1].SortMode = DataGridViewColumnSortMode.NotSortable;
+            DataGridViewColumn testType = ProjectsTable.Columns[1]; // Test type
+            testType.Width = 170;
+            testType.SortMode = DataGridViewColumnSortMode.NotSortable;
 
-            ProjectsTable.Columns[2].Width = 170; // Time started
-            ProjectsTable.Columns[2].ValueType = typeof(DateTime);
-            ProjectsTable.Columns[2].SortMode = DataGridViewColumnSortMode.Programmatic;
+            DataGridViewColumn timeStarted = ProjectsTable.Columns[2]; // time started
+            timeStarted.Width = 170; 
+            timeStarted.ValueType = typeof(DateTime);
+            timeStarted.SortMode = DataGridViewColumnSortMode.NotSortable;
 
-            ProjectsTable.Columns[3].Width = 170; // Creation date
-            ProjectsTable.Columns[3].SortMode = DataGridViewColumnSortMode.NotSortable;
+            DataGridViewColumn creationDate = ProjectsTable.Columns[3]; // Creation date
+            creationDate.Width = 170;
+            creationDate.SortMode = DataGridViewColumnSortMode.NotSortable;
 
-            ProjectsTable.Columns[4].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill; // Chronos path
-            ProjectsTable.Columns[4].SortMode = DataGridViewColumnSortMode.NotSortable;
-            ProjectsTable.Columns[4].DefaultCellStyle.Alignment = DataGridViewContentAlignment.TopLeft;
+            DataGridViewColumn chronos = ProjectsTable.Columns[4]; // Chronos path
+            chronos.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            chronos.SortMode = DataGridViewColumnSortMode.NotSortable;
+            chronos.DefaultCellStyle.Alignment = DataGridViewContentAlignment.TopLeft;
 
-            ProjectsTable.Columns[5].Width = 190; // Assigned to
-            ProjectsTable.Columns[5].SortMode = DataGridViewColumnSortMode.NotSortable;
+            DataGridViewColumn assignedTo = ProjectsTable.Columns[5]; // Assigned to
+            assignedTo.Width = 190;
+            assignedTo.SortMode = DataGridViewColumnSortMode.NotSortable;
+
+            ProjectsTable.SortCompare += customSortCompare;
 
             // Column headers
-            ProjectsTable.Columns[0].HeaderText = "STATUS";
-            ProjectsTable.Columns[1].HeaderText = "TEST TYPE";
-            ProjectsTable.Columns[2].HeaderText = "TIME STARTED";
-            ProjectsTable.Columns[3].HeaderText = "CREATION DATE";
-            ProjectsTable.Columns[4].HeaderText = "CHRONOS PATH";
-            ProjectsTable.Columns[5].HeaderText = "ASSIGNED TO";
+            status.HeaderText = "STATUS";
+            testType.HeaderText = "TEST TYPE";
+            timeStarted.HeaderText = "TIME STARTED";
+            creationDate.HeaderText = "CREATION DATE";
+            chronos.HeaderText = "CHRONOS PATH";
+            assignedTo.HeaderText = "ASSIGNED TO";
 
             // Row header settings
             ProjectsTable.RowHeadersWidth = 90;
@@ -344,6 +349,7 @@ namespace SE_Report.Forms
                     gridView.Rows[row.Index].HeaderCell.Value = (row.Index + 1).ToString();
                 }
             }
+            gridView.FirstDisplayedScrollingRowIndex = gridView.RowCount - 1;
             setColours();
             stats();
         }
@@ -473,6 +479,18 @@ namespace SE_Report.Forms
                     }
                 }
             }
+        }
+
+        /// <summary>
+        /// Sorts DateTime values
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void customSortCompare(object sender, DataGridViewSortCompareEventArgs e)
+        {
+            DateTime a = DateTime.Parse(e.CellValue1.ToString()), b = DateTime.Parse(e.CellValue2.ToString());
+            e.SortResult = b.CompareTo(a);
+            e.Handled = true;
         }
 
     }

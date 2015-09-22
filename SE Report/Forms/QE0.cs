@@ -218,6 +218,7 @@ namespace SE_Report.Forms
             result = "ALL PASSED";
             CreateTemplate();
             projectFinished();
+            checkDirectory();
         }
 
         /// <summary>
@@ -231,6 +232,7 @@ namespace SE_Report.Forms
             result = "FAILED";
             CreateTemplate();
             projectFinished();
+            checkDirectory();
         }
 
         /// <summary>
@@ -249,6 +251,7 @@ namespace SE_Report.Forms
             Reminder reminder = new Reminder();
             reminder.Show();
             reminder.showText(0, "qe0");
+            IO.copyToDesktop(PathBox.Text);
         }
 
         /// <summary>
@@ -509,6 +512,30 @@ namespace SE_Report.Forms
             else
             {
                 System.Diagnostics.Process.Start("http://gpri.lge.com/Views/View_GPRI/Default.aspx?");
+            }
+        }
+
+        /// <summary>
+        /// Checks if the chronos directory is ready for the report
+        /// </summary>
+        private void checkDirectory()
+        {
+            if (IO.dir_isReady(PathBox.Text))
+            {
+                DialogResult result = MessageBox.Show("This directory is ready to receive your report. Would you like to copy it to Chronos?", "Information", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                if (result == DialogResult.Yes)
+                {
+                    IO.copyToChronos(IO.getTargetFolder());
+                }
+            }
+            else
+            {
+                DialogResult result = MessageBox.Show("This directory is not ready to receive your report. Would you like to create the subdirectories and copy your report to Chronos?", "Information", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                if (result == DialogResult.Yes)
+                {
+                    IO.createDirectories(this.Text);
+                    IO.copyToChronos(IO.getTargetFolder());
+                }
             }
         }
 

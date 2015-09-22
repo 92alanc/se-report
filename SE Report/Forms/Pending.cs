@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
 
@@ -56,6 +51,10 @@ namespace SE_Report.Forms
                     Table.DataSource = ds.Tables[0];
                 }
             }
+            catch (IndexOutOfRangeException)
+            {
+                // Irrelevant exception: left blank on purpose
+            }
             catch (Exception e)
             {
                 MessageBox.Show(e.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -99,7 +98,6 @@ namespace SE_Report.Forms
             DataGridViewColumn chronos = Table.Columns[3]; // chronos
             DataGridViewColumn unit = Table.Columns[4]; // unit
 
-            status.DefaultCellStyle.BackColor = Color.Lime;
             status.Width = 120;
             status.HeaderText = "LEVEL";
 
@@ -128,6 +126,15 @@ namespace SE_Report.Forms
         {
             for (int i = 0; i < Table.RowCount; i++)
             {
+                switch (Table[0, i].Value.ToString())
+                {
+                    case "NEW":
+                        Table.Rows[i].Cells[0].Style.BackColor = Color.Lime;
+                        break;
+                    case "UPDATE":
+                        Table.Rows[i].Cells[0].Style.BackColor = Color.Yellow;
+                        break;
+                }
                 if (Table[1, i].Value.Equals("SANITY")) // Test type
                 {
                     Table.Rows[i].Cells[1].Style.BackColor = Color.RoyalBlue;
@@ -164,6 +171,35 @@ namespace SE_Report.Forms
                 foreach (DataGridViewRow row in gridView.Rows)
                 {
                     gridView.Rows[row.Index].HeaderCell.Value = (row.Index + 1).ToString();
+                }
+                bool ok = false;
+                string id = null, id2 = null;
+                for (int i = 0; i < gridView.RowCount; i++)
+                {
+                    if (gridView[0, i].Value.ToString().ToLower().Equals("update"))
+                    {
+                        for (int j = 0; j < gridView.RowCount; j++)
+                        {
+                            id = gridView[3, j].Value.ToString().Split('_')[1].Split('\\')[0];
+                            id2 = gridView[3, i].Value.ToString().Split('_')[1].Split('\\')[0];
+                            if (!gridView[2, j].Value.ToString().Equals(gridView[2, i].Value.ToString()) && id.Equals(id2))
+                            {
+                                gridView.Rows[j].Selected = true;
+                                gridView.Rows.Remove(gridView.SelectedRows[0]);
+                                XmlDocument xml = new XmlDocument();
+                                xml.Load(@"\\lgmcfs-sp\SW\CM\SE\TOOLS\NAO MEXER\Pending.xml");
+                                XmlNode root = xml.SelectSingleNode("projects");
+                                root.RemoveChild(root.ChildNodes.Item(j));
+                                xml.Save(@"\\lgmcfs-sp\SW\CM\SE\TOOLS\NAO MEXER\Pending.xml");
+                                ok = true;
+                                break;
+                            }
+                        }
+                        if (ok)
+                        {
+                            break;
+                        }
+                    }
                 }
             }
             settings();

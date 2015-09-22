@@ -67,6 +67,7 @@
             this.BackButton = new System.Windows.Forms.Button();
             this.LinksButton = new System.Windows.Forms.Button();
             this.GPRIButton = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Table)).BeginInit();
             this.BuyerGroup.SuspendLayout();
             this.ModelGroup.SuspendLayout();
@@ -482,12 +483,23 @@
             this.GPRIButton.UseVisualStyleBackColor = true;
             this.GPRIButton.Click += new System.EventHandler(this.GPRIButton_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(786, 671);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 97;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Sanity
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(1058, 785);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.GPRIButton);
             this.Controls.Add(this.LinksButton);
             this.Controls.Add(this.PathGroup);
@@ -575,5 +587,6 @@
         private System.Windows.Forms.TextBox CreationDateBox;
         private System.Windows.Forms.Button LinksButton;
         private System.Windows.Forms.Button GPRIButton;
+        private System.Windows.Forms.Button button1;
     }
 }

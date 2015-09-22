@@ -14,8 +14,7 @@ namespace SE_Report.Resources
     class Project
     {
 
-        private string status, testType, chronos, timeStarted, tester;
-        private string creationDate;
+        private string status, testType, chronos, timeStarted, tester, creationDate;
         XmlDocument xml = new XmlDocument();
         string dir = @"\\lgmcfs-sp\SW\CM\SE\TOOLS\NAO MEXER\Projects.xml";
 
