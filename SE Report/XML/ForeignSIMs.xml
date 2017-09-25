@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<SIMcards>
+
+  <!-- Panama Claro -->
+  <sim>
+    <suffix>CLM</suffix>
+    <mcc>714</mcc>
+    <mnc>03</mnc>
+    <country>Panama</country>
+    <operator>Claro</operator>
+  </sim>
+  <!-- Dominican Republic Claro -->
+  <sim>
+    <suffix>CAD</suffix>
+    <mcc>370</mcc>
+    <mnc>02</mnc>
+    <country>Dominican Republic</country>
+    <operator>Claro</operator>
+  </sim>
+  <!-- Peru Claro -->
+  <sim>
+    <suffix>CLP</suffix>
+    <mcc>716</mcc>
+    <mnc>10</mnc>
+    <country>Peru</country>
+    <operator>Claro</operator>
+  </sim>
+  <!-- Panama Digicel -->
+  <sim>
+    <suffix>DGP</suffix>
+    <mcc>714</mcc>
+    <mnc>04</mnc>
+    <country>Panama</country>
+    <operator>Digicel</operator>
+  </sim>
+  <!-- Mexico Telcel -->
+  <sim>
+    <suffix>TCL</suffix>
+    <mcc>334</mcc>
+    <mnc>020</mnc>
+    <country>Mexico</country>
+    <operator>Telcel</operator>
+  </sim>
+  <!-- Colombia Tigo -->
+  <sim>
+    <suffix>OLA</suffix>
+    <mcc>732</mcc>
+    <mnc>103</mnc>
+    <country>Colombia</country>
+    <operator>Tigo</operator>
+  </sim>
+  <!-- Chile Entel -->
+  <sim>
+    <suffix>ENT</suffix>
+    <mcc>730</mcc>
+    <mnc>01</mnc>
+    <country>Chile</country>
+    <operator>Entel</operator>
+  </sim>
+  <!-- Chile Claro -->
+  <sim>
+    <suffix>CLA</suffix>
+    <mcc>730</mcc>
+    <mnc>03</mnc>
+    <country>Chile</country>
+    <operator>Claro</operator>
+  </sim>
+  <!-- Chile Falabella -->
+  <sim>
+    <mcc>730</mcc>
+    <mnc>01*</mnc>
+    <country>Chile</country>
+    <operator>Falabella</operator>
+  </sim>
+  
+</SIMcards>

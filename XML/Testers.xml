@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testers>
+  <!-- Alan -->
+  <tester>
+    <id>brisatc284.camargo</id>
+    <name>Alan Camargo</name>
+    <status>Available</status>
+    <number>3</number>
+    <sim>99659-7348 (Vivo)</sim>
+    <rwsim>2</rwsim>
+    <rwsim>n</rwsim>
+  </tester>
+  <!-- Henrique -->
+  <tester>
+    <id>brisatc298.brandao</id>
+    <name>Henrique Brandão</name>
+    <status>Available</status>
+    <number>4</number>
+    <sim>98941-9489 (Claro)</sim>
+    <sd>1</sd>
+  </tester>
+  <!-- Raphael -->
+  <tester>
+    <id>brisatc368.silva</id>
+    <name>Raphael Marcelino</name>
+    <status>Available</status>
+    <number>8</number>
+    <sim>94702-5868 (Nextel)</sim>
+    <rwsim>2</rwsim>
+  </tester>
+  <!-- Lemes -->
+  <tester>
+    <id>brisatc365.lemes</id>
+    <name>Victor Lemes</name>
+    <status>Available</status>
+    <number>1</number>
+    <sim>94130-6742 (Vivo)</sim>
+    <rwsim>n</rwsim>
+  </tester>
+  <!-- Gui -->
+  <tester>
+    <id>brisatc364.lopes</id>
+    <name>Guilherme Lopes</name>
+    <status>Available</status>
+    <number>6</number>
+    <sim>97376-7348 (Vivo)</sim>
+    <rwsim>2</rwsim>
+  </tester>
+  <!-- Marciano -->
+  <tester>
+    <id>brisatc373.rodrigues</id>
+    <name>Marciano Vilela</name>
+    <status>Busy</status>
+    <number>9</number>
+    <sim>94365-7551 (Vivo)</sim>
+  </tester>
+  <!-- Emerç -->
+  <tester>
+    <id>brisatc305.silva</id>
+    <name>Emerson Delmondes</name>
+    <status>Available</status>
+    <number>5</number>
+    <sim>98585-9439 (TIM)</sim>
+  </tester>
+  <!-- Tunin -->
+  <tester>
+    <id>brisatc366.nunes</id>
+    <name>Vitor Nunes</name>
+    <status>Available</status>
+    <number>7</number>
+    <sim>99647-1363 (Vivo)</sim>
+    <rwsim>n</rwsim>
+  </tester>
+  <!-- Edu -->
+  <tester>
+    <id>brisatc343.ferrero</id>
+    <name>Eduardo Ferrero</name>
+    <status>Available</status>
+    <number>2</number>
+    <sim>97474-0724 (Vivo)</sim>
+    <rwsim>2</rwsim>
+  </tester>
+  <!-- Dorigon -->
+  <tester>
+    <id>brisatc329.dorigon</id>
+    <name>Guilherme Dorigon</name>
+    <status>Available</status>
+    <number>0</number>
+    <sim>96910-2155 (Vivo)</sim>
+    <rwsim>2</rwsim>
+  </tester>
+</testers>

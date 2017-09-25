@@ -12,6 +12,11 @@ namespace SE_Report.Forms
 {
     public partial class Developers : Form
     {
+
+        public const string VersionName = "9.1.2";
+
+
+
         public Developers()
         {
             InitializeComponent();
@@ -28,5 +33,6 @@ namespace SE_Report.Forms
         {
             Application.Exit();
         }
+
     }
 }

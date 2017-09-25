@@ -1,0 +1,1183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  An example of a project structure:
+  
+  <project>
+    <status>In progress, [a test's final result], On hold, Cancelled</status>
+    <testType>Sanity, Unit, QE0, Random</testType>
+	<timeStarted>03/08/1992 23:50</timeStarted>
+	<creationDate>03/08/1992 23:50</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\...</chronos>
+    <assignedTo>[tester's name]</assignedTo>
+  </project>   
+  -->
+<projects>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 09:24:41</timeStarted>
+    <creationDate>---</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH440L\CNC\RC1\ID_022171\Technical Documents\BIN_LGH440FAT-00-V10a-CNC-XXX-JUN-15-2015+1.zip</chronos>
+    <assignedTo>brisatc365.lemes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 09:20:00</timeStarted>
+    <creationDate>15/06/2015 16:09:36</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH815L\TFA\QA3\ID_022164\Technical Documents\BIN_LGH815PAT-01-V10a-SSV-TLF-JUN-15-2015+0.zip</chronos>
+    <assignedTo>brisatc364.lopes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 09:45:16</timeStarted>
+    <creationDate>16/06/2015 01:36:19</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH440L\CAD\RC1\ID_022186\Technical Documents\BIN_LGH440FAT-01-V10a-370-02-JUN-15-2015+3.zip</chronos>
+    <assignedTo>brisatc343.ferrero</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 09:58:51</timeStarted>
+    <creationDate>16/06/2015 03:27:27</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH440L\CTF\QA3\ID_022170\Technical Documents\BIN_LGH440vAT-00-V10a-712-04-MAY-15-2015+1.zip</chronos>
+    <assignedTo>brisatc329.dorigon</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 10:05:52</timeStarted>
+    <creationDate>16/06/2015 01:36:19</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH440L\CAD\RC1\ID_022186\Technical Documents\BIN_LGH440FAT-01-V10a-370-02-JUN-15-2015+3.zip</chronos>
+    <assignedTo>brisatc343.ferrero</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 10:12:57</timeStarted>
+    <creationDate>16/06/2015 08:39:35</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH340L\CAO\RC1\ID_022181\Technical Documents</chronos>
+    <assignedTo>brisatc366.nunes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>16/06/2015 10:15:09</timeStarted>
+    <creationDate>15/06/2015 16:09:36</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH815L\TFA\QA3\ID_022164\Technical Documents\BIN_LGH815PAT-01-V10a-SSV-TLF-JUN-15-2015+0.zip</chronos>
+    <assignedTo>brisatc364.lopes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 10:30:16</timeStarted>
+    <creationDate>16/06/2015 01:37:28</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH440L\CLM\RC1\ID_022173\Technical Documents\BIN_LGH440FAT-01-V10a-714-03-JUN-15-2015+3.zip</chronos>
+    <assignedTo>brisatc365.lemes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>16/06/2015 10:35:36</timeStarted>
+    <creationDate>16/06/2015 06:52:38</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH340L\TFS\RC1\ID_022176\Technical Documents\BIN_LGH340ARAT-01-V10a-SSV-TLF-MAR-25-2015+3.zip</chronos>
+    <assignedTo>brisatc368.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 10:41:59</timeStarted>
+    <creationDate>16/06/2015 18:25:08</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH442L\VIV\RC1\ID_022166\Technical Documents\BIN_LGH442FAT-00-V10a-724-06-JUN-15-2015+3.zip</chronos>
+    <assignedTo>brisatc284.camargo</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 11:01:21</timeStarted>
+    <creationDate>15/06/2015 16:43:19</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH520L\TFR\QA3\ID_022160\Technical Documents\BIN_LGH520gAT-00-V10a-SSV-TLF-JUN-01-2015+1.zip</chronos>
+    <assignedTo>brisatc373.rodrigues</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 11:08:27</timeStarted>
+    <creationDate>17/06/2015 11:07:21</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH442L\BTM\RC1\ID_022169\Technical Documents\BIN_LGH442FAT-00-V10a-724-02-JUN-15-2015+2.zip</chronos>
+    <assignedTo>brisatc368.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 11:22:50</timeStarted>
+    <creationDate>16/06/2015 08:53:48</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH635L\CLM\QA2\ID_022194\Technical Documents</chronos>
+    <assignedTo>brisatc305.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>16/06/2015 11:29:43</timeStarted>
+    <creationDate>17/06/2015 22:32:51</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH440L\CTI\QA3\ID_022174\Technical Documents\BIN_LGH440ARAT-00-V10a-722-310-MAY-11-2015+1.zip</chronos>
+    <assignedTo>brisatc343.ferrero</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>16/06/2015 11:32:12</timeStarted>
+    <creationDate>16/06/2015 18:25:08</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH442L\VIV\RC1\ID_022166\Technical Documents\BIN_LGH442FAT-00-V10a-724-06-JUN-15-2015+3.zip</chronos>
+    <assignedTo>brisatc284.camargo</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 13:06:34</timeStarted>
+    <creationDate>16/06/2015 08:53:48</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH635L\CLM\QA2\ID_022194\Technical Documents\BIN_LGH635CAT-01-V10a-714-03-JUN-17-2015+0.zip</chronos>
+    <assignedTo>brisatc305.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 13:08:08</timeStarted>
+    <creationDate>16/06/2015 08:53:48</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH635L\CLM\QA2\ID_022194\Technical Documents\BIN_LGH635CAT-01-V10a-714-03-JUN-17-2015+0.zip</chronos>
+    <assignedTo>brisatc305.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 13:12:34</timeStarted>
+    <creationDate>16/06/2015 08:53:48</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH635L\CLM\QA2\ID_022194\Technical Documents\BIN_LGH635CAT-01-V10a-714-03-JUN-17-2015+0.zip</chronos>
+    <assignedTo>brisatc305.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 13:19:41</timeStarted>
+    <creationDate>15/06/2015 16:27:32</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH635L\CAP\QA2\ID_022144\Technical Documents\BIN_LGH635CAT-01-V10a-330-110-JUN-15-2015+0.zip</chronos>
+    <assignedTo>brisatc364.lopes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 13:21:04</timeStarted>
+    <creationDate>15/06/2015 17:14:25</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH420L\TFA\QA3\ID_022138\Technical Documents\BIN_LGH420FAT-01-V10a-SSV-TLF-JUN-15-2015+0.zip</chronos>
+    <assignedTo>brisatc365.lemes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 13:25:38</timeStarted>
+    <creationDate>17/06/2015 22:32:51</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH440L\CTI\QA3\ID_022174\Technical Documents\BIN_LGH440ARAT-00-V10a-722-310-MAY-11-2015+1.zip</chronos>
+    <assignedTo>brisatc343.ferrero</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 13:26:01</timeStarted>
+    <creationDate>16/06/2015 08:53:48</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH635L\CLM\QA2\ID_022194\Technical Documents\BIN_LGH635CAT-01-V10a-714-03-JUN-17-2015+0.zip</chronos>
+    <assignedTo>brisatc305.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 13:26:10</timeStarted>
+    <creationDate>15/06/2015 17:10:34</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH422L\CRO\QA2\ID_021819\Technical Documents\BIN_LGH422AT-00-V10a-CRO-XXX-JUN-15-2015+0.zip</chronos>
+    <assignedTo>brisatc373.rodrigues</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 14:00:05</timeStarted>
+    <creationDate>16/06/2015 11:33:39</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH440L\(PRN)\RC1\ID_022183\Technical Documents\BIN_LGH440ARAT-01-V10a-722-34-JUN-15-2015+3.zip</chronos>
+    <assignedTo>brisatc329.dorigon</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 14:02:33</timeStarted>
+    <creationDate>16/06/2015 09:02:24</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH340L\ARG\RC1\ID_022195\Technical Documents\BIN_LGH340ARAT-00-V10b-SCA-XXX-JUN-16-2015+0.zip</chronos>
+    <assignedTo>brisatc366.nunes</assignedTo>
+  </project>
+  <project>
+    <status>FAILED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 14:10:20</timeStarted>
+    <creationDate>15/06/2015 22:56:17</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH340L\UAN\QA1\ID_022153\Technical Documents\BIN_LGH340ARAT-01-V10a-748-01-JUN-15-2015+0.zip</chronos>
+    <assignedTo>brisatc298.brandao</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 14:21:43</timeStarted>
+    <creationDate>16/06/2015 11:22:57</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH221KK\VEP\QA1\ID_022163\Technical Documents\BIN_LGH221gAT-00-V10a-716-15-JUN-17-2015+0.zip</chronos>
+    <assignedTo>brisatc284.camargo</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 14:29:55</timeStarted>
+    <creationDate>16/06/2015 08:59:43</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH635L\CTF\QA2\ID_022192\Technical Documents</chronos>
+    <assignedTo>brisatc305.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 14:32:37</timeStarted>
+    <creationDate>16/06/2015 09:19:59</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH635L\CNC\QA3\ID_022193\Technical Documents\BIN_LGH635CAT-00-V10a-CNC-XXX-JUN-17-2015+0.zip</chronos>
+    <assignedTo>brisatc364.lopes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>16/06/2015 14:46:44</timeStarted>
+    <creationDate>15/06/2015 17:10:34</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH422L\CRO\QA2\ID_021819\Technical Documents\BIN_LGH422AT-00-V10a-CRO-XXX-JUN-15-2015+0.zip</chronos>
+    <assignedTo>brisatc373.rodrigues</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 15:39:40</timeStarted>
+    <creationDate>16/06/2015 09:09:20</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH340L\CTI\RC2\ID_022197\Technical Documents\BIN_LGH340ARAT-00-V10a-722-310-MAR-23-2015+3.zip</chronos>
+    <assignedTo>brisatc368.silva</assignedTo>
+  </project>
+  <project>
+    <status>FAILED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 15:41:16</timeStarted>
+    <creationDate>15/06/2015 22:56:17</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH340L\UAN\QA1\ID_022153\Technical Documents\BIN_LGH340ARAT-01-V10a-748-01-JUN-15-2015+0.zip</chronos>
+    <assignedTo>brisatc298.brandao</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 15:44:26</timeStarted>
+    <creationDate>16/06/2015 11:47:08</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH340L\CRC\RC1\ID_022206\Technical Documents\BIN_LGH340YAT-00-V10b-712-03-JUN-16-2015+0.zip</chronos>
+    <assignedTo>brisatc373.rodrigues</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 15:56:12</timeStarted>
+    <creationDate>16/06/2015 17:19:41</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH815L\NTP\QA1\ID_022213\Technical Documents\BIN_LGH815PAT-00-V10a-716-17-JUN-16-2015+0.zip</chronos>
+    <assignedTo>brisatc364.lopes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 16:06:38</timeStarted>
+    <creationDate>16/06/2015 14:06:21</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH340L\CLP\RC2\ID_022184\Technical Documents\BIN_LGH340FAT-00-V10a-716-10-MAR-03-2015+2.zip</chronos>
+    <assignedTo>brisatc366.nunes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>16/06/2015 16:11:32</timeStarted>
+    <creationDate>15/06/2015 17:14:25</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH420L\TFA\QA3\ID_022138\Technical Documents\BIN_LGH420FAT-01-V10a-SSV-TLF-JUN-15-2015+0.zip</chronos>
+    <assignedTo>brisatc365.lemes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 16:27:53</timeStarted>
+    <creationDate>16/06/2015 16:01:27</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH342L\BOI\RC1\ID_022201\Technical Documents\BIN_LGH342FAT-00-V10a-724-31-JUN-16-2015+2.zip</chronos>
+    <assignedTo>brisatc329.dorigon</assignedTo>
+  </project>
+  <project>
+    <status>FAILED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 16:40:40</timeStarted>
+    <creationDate>17/06/2015 13:44:40</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH420L\VEP\QA1\ID_022111\Technical Documents\BIN_LGH420FAT-00-V10a-716-15-JUN-16-2015+0.zip</chronos>
+    <assignedTo>brisatc284.camargo</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 16:45:17</timeStarted>
+    <creationDate>16/06/2015 13:53:28</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH540L\MIA\QA2\ID_022165\Technical Documents\BIN_LGH540AT-00-V10a-SCA-XXX-JUN-16-2015+0.zip</chronos>
+    <assignedTo>brisatc343.ferrero</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>16/06/2015 16:46:16</timeStarted>
+    <creationDate>17/06/2015 11:07:21</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH442L\BTM\RC1\ID_022169\Technical Documents\BIN_LGH442FAT-00-V10a-724-02-JUN-15-2015+2.zip</chronos>
+    <assignedTo>brisatc368.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 17:11:30</timeStarted>
+    <creationDate>16/06/2015 19:02:39</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH955L\TFU\RC1\ID_022147\Technical Documents\BIN_LGH955ARAT-01-V15a-SSV-TLF-JUN-17-2015+0.zip</chronos>
+    <assignedTo>brisatc365.lemes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 19:11:56</timeStarted>
+    <creationDate>16/06/2015 17:19:41</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH815L\NTP\QA1\ID_022213\Technical Documents\BIN_LGH815PAT-00-V10a-716-17-JUN-16-2015+0.zip</chronos>
+    <assignedTo>brisatc364.lopes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>16/06/2015 19:38:28 PM</timeStarted>
+    <creationDate>16/06/2015 17:19:41</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH815L\NTP\QA1\ID_022213\Technical Documents\BIN_LGH815PAT-00-V10a-716-17-JUN-16-2015+0.zip</chronos>
+    <assignedTo>brisatc364.lopes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 19:41:52</timeStarted>
+    <creationDate>16/06/2015 18:25:08</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH442L\VIV\RC1\ID_022166\Technical Documents\BIN_LGH442FAT-00-V10a-724-06-JUN-15-2015+3.zip</chronos>
+    <assignedTo>brisatc329.dorigon</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 19:47:09</timeStarted>
+    <creationDate>16/06/2015 18:25:08</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH442L\VIV\RC1\ID_022166\Technical Documents\BIN_LGH442FAT-00-V10a-724-06-JUN-15-2015+3.zip</chronos>
+    <assignedTo>brisatc329.dorigon</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 19:55:45</timeStarted>
+    <creationDate>16/06/2015 15:35:52</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH955L\TFU\RC1\ID_022147\Technical Documents\</chronos>
+    <assignedTo>brisatc365.lemes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 20:09:36</timeStarted>
+    <creationDate>17/06/2015 11:07:21</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH442L\BTM\RC1\ID_022169\Technical Documents\BIN_LGH442FAT-00-V10a-724-02-JUN-15-2015+2.zip</chronos>
+    <assignedTo>brisatc364.lopes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 20:17:50</timeStarted>
+    <creationDate>16/06/2015 06:52:38</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH340L\TFS\RC1\ID_022176\Technical Documents\BIN_LGH340ARAT-01-V10a-SSV-TLF-MAR-25-2015+3.zip</chronos>
+    <assignedTo>brisatc366.nunes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>16/06/2015 21:13:20</timeStarted>
+    <creationDate>16/06/2015 19:02:39</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH955L\TFU\RC1\ID_022147\Technical Documents\BIN_LGH955ARAT-01-V15a-SSV-TLF-JUN-17-2015+0.zip</chronos>
+    <assignedTo>brisatc365.lemes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 21:23:18</timeStarted>
+    <creationDate>16/06/2015 18:08:34</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH340L\TFO\RC1\ID_022204\Technical Documents\BIN_LGH340FAT-01-V10b-SSV-TLF-JUN-16-2015+0.zip</chronos>
+    <assignedTo>brisatc366.nunes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>16/06/2015 21:29:30</timeStarted>
+    <creationDate>16/06/2015 18:25:08</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH442L\VIV\RC1\ID_022166\Technical Documents\BIN_LGH442FAT-00-V10a-724-06-JUN-15-2015+3.zip</chronos>
+    <assignedTo>brisatc329.dorigon</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 21:49:01</timeStarted>
+    <creationDate>16/06/2015 19:03:59</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH955L\TFS\RC1\ID_022148\Technical Documents\BIN_LGH955ARAT-01-V15a-SSV-TLF-JUN-17-2015+0.zip</chronos>
+    <assignedTo>brisatc365.lemes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 21:49:19</timeStarted>
+    <creationDate>16/06/2015 19:06:25</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH955L\TFP\RC1\ID_022149\Technical Documents\BIN_LGH955PAT-00-V15a-SSV-TLF-JUN-17-2015+0.zip</chronos>
+    <assignedTo>brisatc364.lopes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 21:58:17</timeStarted>
+    <creationDate>16/06/2015 15:46:47</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH342L\VIV\RC1\ID_022198\Technical Documents\BIN_LGH342FAT-00-V10a-724-06-JUN-16-2015+3.zip</chronos>
+    <assignedTo>brisatc329.dorigon</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 22:48:10</timeStarted>
+    <creationDate>16/06/2015 16:01:27</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH342L\BOI\RC1\ID_022201\Technical Documents\BIN_LGH342FAT-00-V10a-724-31-JUN-16-2015+2.zip</chronos>
+    <assignedTo>brisatc365.lemes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 23:09:19</timeStarted>
+    <creationDate>16/06/2015 18:41:45</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH340L\CNT\RC1\ID_022203\Technical Documents\BIN_LGH340FAT-00-V10b-740-02-JUN-16-2015+0.zip</chronos>
+    <assignedTo>brisatc366.nunes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 23:18:06</timeStarted>
+    <creationDate>16/06/2015 17:25:35</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH440L\TFP\RC1\ID_022167\Technical Documents\BIN_LGH440FAT-01-V10a-SSV-TLF-JUN-15-2015+4.zip</chronos>
+    <assignedTo>brisatc364.lopes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>16/06/2015 23:48:42</timeStarted>
+    <creationDate>16/06/2015 07:02:41</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH340L\(PRN)\RC1\ID_022175\Technical Documents\BIN_LGH340ARAT-01-V10a-722-34-APR-27-2015+1.zip</chronos>
+    <assignedTo>brisatc365.lemes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>17/06/2015 00:00:42</timeStarted>
+    <creationDate>16/06/2015 21:33:18</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH440L\TFB\RC1\ID_022187\Technical Documents\BIN_LGH440FAT-01-V10a-SSV-TLF-JUN-15-2015+4.zip</chronos>
+    <assignedTo>brisatc329.dorigon</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>17/06/2015 00:22:13</timeStarted>
+    <creationDate>16/06/2015 17:37:05</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH440L\CNT\RC1\ID_022189\Technical Documents\BIN_LGH440FAT-00-V10a-740-02-JUN-15-2015+2.zip</chronos>
+    <assignedTo>brisatc366.nunes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>17/06/2015 08:41:35</timeStarted>
+    <creationDate>16/06/2015 18:46:01</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH955L\CAO\RC1\ID_022150\Technical Documents\</chronos>
+    <assignedTo>brisatc305.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>17/06/2015 08:49:51</timeStarted>
+    <creationDate>17/06/2015 08:01:51</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH440L\TFS\RC1\ID_022191\Technical Documents\BIN_LGH440ARAT-01-V10a-SSV-TLF-JUN-15-2015+3.zip</chronos>
+    <assignedTo>brisatc343.ferrero</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>17/06/2015 08:54:58</timeStarted>
+    <creationDate>17/06/2015 07:20:36</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH340L\TFH\RC1\ID_022209\Technical Documents\BIN_LGH340FAT-01-V10b-730-02-JUN-17-2015+0.zip</chronos>
+    <assignedTo>brisatc373.rodrigues</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>17/06/2015 09:25:06</timeStarted>
+    <creationDate>17/06/2015 08:09:06</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH340L\CRI\RC1\ID_022208\Technical Documents\BIN_LGH340YAT-00-V10b-712-01-JUN-17-2015+0.zip</chronos>
+    <assignedTo>brisatc368.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>17/06/2015 10:21:40</timeStarted>
+    <creationDate>16/06/2015 16:42:00</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH340L\CAO\RC1\ID_022181\Technical Documents\BIN_LGH340FAT-01-V10a-704-01-JUN-02-2015+1.zip</chronos>
+    <assignedTo>brisatc373.rodrigues</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>17/06/2015 10:24:30</timeStarted>
+    <creationDate>17/06/2015 08:01:51</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH440L\TFS\RC1\ID_022191\Technical Documents\BIN_LGH440ARAT-01-V10a-SSV-TLF-JUN-15-2015+3.zip</chronos>
+    <assignedTo>brisatc343.ferrero</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>17/06/2015 11:33:57</timeStarted>
+    <creationDate>16/06/2015 21:27:17</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH440L\CMC\RC1\ID_022177\Technical Documents\BIN_LGH440FAT-00-V10a-732-101-MAR-30-2015+4.zip</chronos>
+    <assignedTo>brisatc364.lopes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>17/06/2015 13:06:11</timeStarted>
+    <creationDate>17/06/2015 11:07:21</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH442L\BTM\RC1\ID_022169\Technical Documents\BIN_LGH442FAT-00-V10a-724-02-JUN-15-2015+2.zip</chronos>
+    <assignedTo>brisatc373.rodrigues</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>17/06/2015 13:28:31</timeStarted>
+    <creationDate>16/06/2015 18:00:12</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH440L\OLA\RC1\ID_022188\Technical Documents\BIN_LGH440FAT-00-V10a-732-103-JUN-15-2015+2.zip</chronos>
+    <assignedTo>brisatc368.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>17/06/2015 13:31:25</timeStarted>
+    <creationDate>17/06/2015 10:57:59</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH342L\BTM\RC1\ID_022200\Technical Documents\BIN_LGH342FTAT-00-V10a-724-02-JUN-17-2015+1.zip</chronos>
+    <assignedTo>brisatc365.lemes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>17/06/2015 14:08:42</timeStarted>
+    <creationDate>17/06/2015 13:44:40</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH420L\VEP\QA1\ID_022111\Technical Documents\BIN_LGH420FAT-00-V10a-716-15-JUN-16-2015+0.zip</chronos>
+    <assignedTo>brisatc343.ferrero</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>17/06/2015 14:08:55</timeStarted>
+    <creationDate>17/06/2015 12:36:01</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH340L\CLR\QA2\ID_022210\Technical Documents\BIN_LGH340FAT-00-V10a-724-05-JUN-17-2015+0.zip</chronos>
+    <assignedTo>brisatc298.brandao</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>17/06/2015 14:52:29</timeStarted>
+    <creationDate>17/06/2015 13:47:21</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH955L\TFU\RC1\ID_022242\Technical Documents\BIN_LGH955ARAT-01-V15a-SSV-TLF-JUN-17-2015+0.zip</chronos>
+    <assignedTo>brisatc305.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>17/06/2015 15:05:36</timeStarted>
+    <creationDate>17/06/2015 12:15:07</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH502L\CLR\QA2\ID_022141\Technical Documents\BIN_LGH502fAT-00-V10a-724-05-JUN-19-2015+0.zip</chronos>
+    <assignedTo>brisatc373.rodrigues</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Issues DB</testType>
+    <timeStarted>17/06/2015 15:54:40</timeStarted>
+    <creationDate>16/06/2015 17:19:41</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH815L\NTP\QA1\ID_022213\Technical Documents\BIN_LGH815PAT-00-V10a-716-17-JUN-16-2015+0.zip</chronos>
+    <assignedTo>brisatc284.camargo</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>17/06/2015 16:00:43</timeStarted>
+    <creationDate>17/06/2015 13:52:21</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH955L\TFS\RC1\ID_022243\Technical Documents\BIN_LGH955ARAT-01-V15a-SSV-TLF-JUN-17-2015+0.zip</chronos>
+    <assignedTo>brisatc365.lemes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>17/06/2015 16:04:13</timeStarted>
+    <creationDate>17/06/2015 14:41:35</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH815L\EPT\QA2\ID_022212\Technical Documents\BIN_LGH815PAT-00-V10a-740-01-JUN-16-2015+0.zip</chronos>
+    <assignedTo>brisatc343.ferrero</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>17/06/2015 16:12:06</timeStarted>
+    <creationDate>17/06/2015 14:41:35</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH815L\EPT\QA2\ID_022212\Technical Documents\BIN_LGH815PAT-00-V10a-740-01-JUN-16-2015+0.zip</chronos>
+    <assignedTo>brisatc343.ferrero</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>17/06/2015 16:53:21</timeStarted>
+    <creationDate>17/06/2015 16:41:48</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH955L\TFU\RC1\ID_022242\RST\01. General Information\05. Test Result </chronos>
+    <assignedTo>brisatc305.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>18/06/2015 08:37:18</timeStarted>
+    <creationDate>17/06/2015 22:48:30</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH440L\ARG\RC1\ID_022190\Technical Documents\BIN_LGH440ARAT-00-V10b-SCA-XXX-JUN-17-2015+0.zip</chronos>
+    <assignedTo>brisatc298.brandao</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>18/06/2015 08:46:05</timeStarted>
+    <creationDate>17/06/2015 17:13:26</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH955L\CMC\QA4\ID_022103\Technical Documents\BIN_LGH955PAT-00-V10a-732-101-MAY-28-2015+1.zip</chronos>
+    <assignedTo>brisatc329.dorigon</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>18/06/2015 08:50:42</timeStarted>
+    <creationDate>17/06/2015 12:15:07</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH502L\CLR\QA2\ID_022141\Technical Documents\BIN_LGH502fAT-00-V10a-724-05-JUN-19-2015+0.zip</chronos>
+    <assignedTo>brisatc373.rodrigues</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>18/06/2015 09:09:41</timeStarted>
+    <creationDate>17/06/2015 17:13:26</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH955L\CMC\QA4\ID_022103\Technical Documents\BIN_LGH955PAT-00-V10a-732-101-MAY-28-2015+1.zip</chronos>
+    <assignedTo>brisatc329.dorigon</assignedTo>
+  </project>
+  <project>
+    <status>FAILED</status>
+    <testType>Issues DB</testType>
+    <timeStarted>18/06/2015 09:10:56</timeStarted>
+    <creationDate>17/06/2015 16:22:41</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH221KK\NTP\QE0\ID_022247\Technical Documents\H221_LAP8x26KMR1R141230_op1_sp.zip</chronos>
+    <assignedTo>brisatc343.ferrero</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>18/06/2015 09:24:17</timeStarted>
+    <creationDate>17/06/2015 16:11:34</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH442L\VIV\RC1\ID_022245\Technical Documents\BIN_LGH442FAT-00-V10a-724-06-JUN-15-2015+3.zip</chronos>
+    <assignedTo>brisatc368.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>18/06/2015 09:43:13</timeStarted>
+    <creationDate>17/06/2015 17:22:17</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH520L\TFR\QA3\ID_022231\Technical Documents\BIN_LGH520gAT-00-V10a-SSV-TLF-JUN-01-2015+1.zip</chronos>
+    <assignedTo>brisatc364.lopes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>18/06/2015 10:14:00</timeStarted>
+    <creationDate>17/06/2015 17:13:26</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH955L\CMC\QA4\ID_022103\Technical Documents\BIN_LGH955PAT-00-V10a-732-101-MAY-28-2015+1.zip</chronos>
+    <assignedTo>brisatc329.dorigon</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>18/06/2015 10:14:24</timeStarted>
+    <creationDate>17/06/2015 22:48:30</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH440L\ARG\RC1\ID_022190\Technical Documents\BIN_LGH440ARAT-00-V10b-SCA-XXX-JUN-17-2015+0.zip</chronos>
+    <assignedTo>brisatc298.brandao</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>18/06/2015 10:45:52</timeStarted>
+    <creationDate>17/06/2015 16:11:34</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH442L\VIV\RC1\ID_022245\Technical Documents\BIN_LGH442FAT-00-V10a-724-06-JUN-15-2015+3.zip</chronos>
+    <assignedTo>brisatc368.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>18/06/2015 10:53:10</timeStarted>
+    <creationDate>17/06/2015 17:49:17</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH520L\CNT\QA4\ID_022161\Technical Documents\BIN_LGH520gAT-00-V10a-740-02-JUN-01-2015+1.zip</chronos>
+    <assignedTo>brisatc365.lemes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>18/06/2015 11:15:20</timeStarted>
+    <creationDate>18/06/2015 10:35:21</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH440L\TFP\RC1\ID_022246\Technical Documents\BIN_LGH440FAT-00-V10a-SSV-TLF-JUN-15-2015+4.zip</chronos>
+    <assignedTo>brisatc284.camargo</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>18/06/2015 11:24:21</timeStarted>
+    <creationDate>18/06/2015 09:23:35</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH635L\CRO\QA1\ID_022145\Technical Documents\BIN_LGH635CAT-00-V10a-CRO-XXX-JUN-19-2015+0.zip</chronos>
+    <assignedTo>brisatc305.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>18/06/2015 11:39:48</timeStarted>
+    <creationDate>17/06/2015 11:07:21</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH442L\BTM\RC1\ID_022169\Technical Documents\BIN_LGH442FAT-00-V10a-724-02-JUN-15-2015+2.zip</chronos>
+    <assignedTo>brisatc373.rodrigues</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>18/06/2015 13:10:18</timeStarted>
+    <creationDate>18/06/2015 10:35:21</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH440L\TFP\RC1\ID_022246\Technical Documents\BIN_LGH440FAT-00-V10a-SSV-TLF-JUN-15-2015+4.zip</chronos>
+    <assignedTo>brisatc284.camargo</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>18/06/2015 13:29:04</timeStarted>
+    <creationDate>19/06/2015 15:33:14</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH635L\TFH\QA1\ID_021927\Technical Documents\BIN_LGH635CAT-01-V10a-730-02-JUN-19-2015+0.zip</chronos>
+    <assignedTo>brisatc373.rodrigues</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>18/06/2015 14:02:52</timeStarted>
+    <creationDate>18/06/2015 09:15:03</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH635L\PAN\QA2\ID_021334\Technical Documents\BIN_LGH635CAT-00-V10a-SCA-XXX-JUN-19-2015+0.zip</chronos>
+    <assignedTo>brisatc364.lopes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>18/06/2015 14:07:54</timeStarted>
+    <creationDate>17/06/2015 22:32:51</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH440L\CTI\QA3\ID_022174\Technical Documents\BIN_LGH440ARAT-00-V10a-722-310-MAY-11-2015+1.zip</chronos>
+    <assignedTo>brisatc368.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>18/06/2015 14:22:44</timeStarted>
+    <creationDate>19/06/2015 15:33:14</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH635L\TFH\QA1\ID_021927\Technical Documents\BIN_LGH635CAT-01-V10a-730-02-JUN-19-2015+0.zip</chronos>
+    <assignedTo>brisatc373.rodrigues</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>18/06/2015 14:28:26</timeStarted>
+    <creationDate>19/06/2015 13:28:52</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH815L\TFR\QA2\ID_022211\Technical Documents\BIN_LGH815PAT-00-V10a-SSV-TLF-JUN-15-2015+0.zip</chronos>
+    <assignedTo>brisatc365.lemes</assignedTo>
+  </project>
+  <project>
+    <status>FAILED</status>
+    <testType>Sanity</testType>
+    <timeStarted>18/06/2015 14:38:11</timeStarted>
+    <creationDate>19/06/2015 08:24:00</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH734L\COL\QE1\ID_022159\Technical Documents\BIN_LGH734AT-00-V09a-SCA-XXX-JUN-22-2015+0.zip</chronos>
+    <assignedTo>brisatc343.ferrero</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>18/06/2015 14:51:40</timeStarted>
+    <creationDate>17/06/2015 14:58:56</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH955L\CAO\RC1\ID_022150\Technical Documents\BIN_LGH955PAT-01-V15a-704-01-JUN-17-2015+0.zip</chronos>
+    <assignedTo>brisatc284.camargo</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>18/06/2015 14:58:11</timeStarted>
+    <creationDate>17/06/2015 22:32:51</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH440L\CTI\QA3\ID_022174\Technical Documents\BIN_LGH440ARAT-00-V10a-722-310-MAY-11-2015+1.zip</chronos>
+    <assignedTo>brisatc368.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>18/06/2015 15:00:30</timeStarted>
+    <creationDate>19/06/2015 08:24:00</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH734L\COL\QE1\ID_022159\Technical Documents\BIN_LGH734AT-00-V09a-SCA-XXX-JUN-22-2015+0.zip</chronos>
+    <assignedTo>brisatc343.ferrero</assignedTo>
+  </project>
+  <project>
+    <status>FAILED</status>
+    <testType>Sanity</testType>
+    <timeStarted>18/06/2015 15:04:27</timeStarted>
+    <creationDate>18/06/2015 14:57:25</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGD855L\SIKUR\QE0\ID_022152\Technical Documents\BIN_LGD855AT-00-V19a-SKB-XXX-JUN-18-2015-16G+0.zip</chronos>
+    <assignedTo>brisatc329.dorigon</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>18/06/2015 15:38:54</timeStarted>
+    <creationDate>19/06/2015 15:33:14</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH635L\TFH\QA1\ID_021927\Technical Documents\BIN_LGH635CAT-01-V10a-730-02-JUN-19-2015+0.zip</chronos>
+    <assignedTo>brisatc373.rodrigues</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>18/06/2015 15:39:26</timeStarted>
+    <creationDate>19/06/2015 13:28:52</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH815L\TFR\QA2\ID_022211\Technical Documents\BIN_LGH815PAT-00-V10a-SSV-TLF-JUN-15-2015+0.zip</chronos>
+    <assignedTo>brisatc365.lemes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>18/06/2015 15:48:55</timeStarted>
+    <creationDate>18/06/2015 09:15:03</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH635L\PAN\QA2\ID_021334\Technical Documents\BIN_LGH635CAT-00-V10a-SCA-XXX-JUN-19-2015+0.zip</chronos>
+    <assignedTo>brisatc364.lopes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>18/06/2015 16:04:17</timeStarted>
+    <creationDate>19/06/2015 15:33:14</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH635L\TFH\QA1\ID_021927\Technical Documents\BIN_LGH635CAT-01-V10a-730-02-JUN-19-2015+0.zip</chronos>
+    <assignedTo>brisatc373.rodrigues</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>18/06/2015 16:15:50</timeStarted>
+    <creationDate>19/06/2015 15:33:14</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH635L\TFH\QA1\ID_021927\Technical Documents\BIN_LGH635CAT-01-V10a-730-02-JUN-19-2015+0.zip</chronos>
+    <assignedTo>brisatc373.rodrigues</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>19/06/2015 09:06:24</timeStarted>
+    <creationDate>18/06/2015 18:39:19</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH955L\CRO\RC1\ID_021845\Technical Documents\BIN_LGH955AAT-00-V15a-CRO-XXX-JUN-22-2015+0.zip</chronos>
+    <assignedTo>brisatc298.brandao</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>19/06/2015 09:16:03</timeStarted>
+    <creationDate>19/06/2015 00:28:28</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH815L\BRA\RC2\ID_022261\Technical Documents\BIN_LGH815PAT-00-V10c-BRA-XXX-JUN-18-2015+0.zip</chronos>
+    <assignedTo>brisatc364.lopes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>19/06/2015 09:37:33</timeStarted>
+    <creationDate>19/06/2015 00:28:28</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH815L\BRA\RC2\ID_022261\Technical Documents\BIN_LGH815PAT-00-V10c-BRA-XXX-JUN-18-2015+0.zip</chronos>
+    <assignedTo>brisatc364.lopes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>19/06/2015 11:19:31</timeStarted>
+    <creationDate>18/06/2015 12:54:22</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH734L\COL\QE1\ID_022159\Technical Documents</chronos>
+    <assignedTo>brisatc366.nunes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>19/06/2015 11:41:06</timeStarted>
+    <creationDate>19/06/2015 09:36:40</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH635L\TFP\QA2\ID_022266\Technical Documents\BIN_LGH635CAT-00-V10a-SSV-TLF-MAY-27-2015+1.zip</chronos>
+    <assignedTo>brisatc365.lemes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>19/06/2015 13:48:24</timeStarted>
+    <creationDate>19/06/2015 08:24:00</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH734L\COL\QE1\ID_022159\Technical Documents\BIN_LGH734AT-00-V09a-SCA-XXX-JUN-22-2015+0.zip</chronos>
+    <assignedTo>brisatc366.nunes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>19/06/2015 13:55:23</timeStarted>
+    <creationDate>19/06/2015 13:20:07</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGD227KK\BOI\RC3\ID_022268\Technical Documents\BIN_LGD227AT-00-V10a-724-31-JUN-19-2015+1.zip</chronos>
+    <assignedTo>brisatc305.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>19/06/2015 14:12:59</timeStarted>
+    <creationDate>19/06/2015 13:28:52</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH815L\TFR\QA2\ID_022211\Technical Documents\BIN_LGH815PAT-00-V10a-SSV-TLF-JUN-15-2015+0.zip</chronos>
+    <assignedTo>brisatc343.ferrero</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Issues DB</testType>
+    <timeStarted>19/06/2015 15:16:26</timeStarted>
+    <creationDate>18/06/2015 19:11:50</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGD722KK\SSV\QE0\ID_022276\Technical Documents\LGD722AT-00-V10a-GLOBAL-COM-JUN-17-2015+1.tot</chronos>
+    <assignedTo>brisatc368.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>19/06/2015 16:19:18</timeStarted>
+    <creationDate>19/06/2015 15:31:27</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH815L\CNC\RC1\ID_022262\Technical Documents\BIN_LGH815PAT-00-V10a-CNC-XXX-JUN-24-2015+2.zip</chronos>
+    <assignedTo>brisatc364.lopes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>19/06/2015 15:24:18</timeStarted>
+    <creationDate>19/06/2015 15:24:21</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH540L\COL\QA2\ID_022269\Technical Documents\BIN_LGH540AT-00-V10a-SCA-XXX-JUN-23-2015+0.zip</chronos>
+    <assignedTo>brisatc365.lemes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>19/06/2015 16:26:43</timeStarted>
+    <creationDate>19/06/2015 15:33:14</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH635L\TFH\QA1\ID_021927\Technical Documents\BIN_LGH635CAT-01-V10a-730-02-JUN-19-2015+0.zip</chronos>
+    <assignedTo>brisatc373.rodrigues</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>19/06/2015 17:03:28</timeStarted>
+    <creationDate>19/06/2015 15:33:14</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH635L\TFH\QA1\ID_021927\Technical Documents\BIN_LGH635CAT-01-V10a-730-02-JUN-19-2015+0.zip</chronos>
+    <assignedTo>brisatc373.rodrigues</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>22/06/2015 10:00:11</timeStarted>
+    <creationDate>23/06/2015 01:39:30</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH815L\VIV\RC1\ID_022278\Technical Documents\BIN_LGH815PAT-00-V10a-724-06-JUN-19-2015+1.zip</chronos>
+    <assignedTo>brisatc343.ferrero</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>22/06/2015 13:52:55</timeStarted>
+    <creationDate>22/06/2015 11:39:21</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH635L\CLP\QA1\ID_022267\Technical Documents\BIN_LGH635CAT-00-V10a-716-10-JUN-02-2015+1.zip</chronos>
+    <assignedTo>brisatc365.lemes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>22/06/2015 14:45:41</timeStarted>
+    <creationDate>23/06/2015 16:22:44</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH815L\CTF\QA1\ID_022281\Technical Documents\BIN_LGH815PAT-00-V10a-712-04-JUN-22-2015+0.zip</chronos>
+    <assignedTo>brisatc305.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>22/06/2015 15:20:00</timeStarted>
+    <creationDate>22/06/2015 11:47:55</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH635L\CLM\QA2\ID_022248\Technical Documents\BIN_LGH635CAT-01-V10a-714-03-JUN-23-2015+0.zip</chronos>
+    <assignedTo>brisatc298.brandao</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>22/06/2015 15:28:50</timeStarted>
+    <creationDate>22/06/2015 11:47:55</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH635L\CLM\QA2\ID_022248\Technical Documents\BIN_LGH635CAT-01-V10a-714-03-JUN-23-2015+0.zip</chronos>
+    <assignedTo>brisatc298.brandao</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>22/06/2015 15:58:01</timeStarted>
+    <creationDate>19/06/2015 15:24:21</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH540L\COL\QA2\ID_022269\Technical Documents\BIN_LGH540AT-00-V10a-SCA-XXX-JUN-23-2015+0.zip</chronos>
+    <assignedTo>brisatc368.silva</assignedTo>
+  </project>
+  <project>
+    <status>FAILED</status>
+    <testType>Sanity</testType>
+    <timeStarted>22/06/2015 16:13:01</timeStarted>
+    <creationDate>22/06/2015 14:29:09</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH815L\CTF\QA1\ID_022281\Technical Documents</chronos>
+    <assignedTo>brisatc305.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>23/06/2015 08:50:00</timeStarted>
+    <creationDate>23/06/2015 01:39:30</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH815L\VIV\RC1\ID_022278\Technical Documents\BIN_LGH815PAT-00-V10a-724-06-JUN-19-2015+1.zip</chronos>
+    <assignedTo>brisatc329.dorigon</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>23/06/2015 08:55:29</timeStarted>
+    <creationDate>23/06/2015 18:51:30</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH810L\CAP\RC1\ID_022299\Technical Documents\BIN_LGH810PRAT-01-V10a-330-110-MAY-19-2015+2.zip</chronos>
+    <assignedTo>brisatc368.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>23/06/2015 09:32:21</timeStarted>
+    <creationDate>22/06/2015 19:30:03</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH221KK\NTP\QA1\ID_022286\Technical Documents\BIN_LGH221gAT-00-V10a-716-17-JUN-24-2015+0.zip</chronos>
+    <assignedTo>brisatc366.nunes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>23/06/2015 09:36:24</timeStarted>
+    <creationDate>23/06/2015 08:47:35</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH950L\CAP\RC1\ID_022107\Technical Documents\BIN_LGH950PRAT-01-V15a-330-110-JUN-24-2015+0.zip</chronos>
+    <assignedTo>brisatc364.lopes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>23/06/2015 09:43:01</timeStarted>
+    <creationDate>23/06/2015 08:48:35</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH340L\TGO\QA2\ID_022272\Technical Documents\BIN_LGH340GTAT-01-V10a-TGO-XXX-JUN-26-2015+0.zip</chronos>
+    <assignedTo>brisatc298.brandao</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>23/06/2015 10:13:49</timeStarted>
+    <creationDate>23/06/2015 16:23:20</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGD227KK\BTM\RC3\ID_022273\Technical Documents\BIN_LGD227AT-00-V10a-724-02-JUN-22-2015+3.zip</chronos>
+    <assignedTo>brisatc368.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>23/06/2015 10:32:35</timeStarted>
+    <creationDate>23/06/2015 08:48:35</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH340L\TGO\QA2\ID_022272\Technical Documents\BIN_LGH340GTAT-01-V10a-TGO-XXX-JUN-26-2015+0.zip</chronos>
+    <assignedTo>brisatc298.brandao</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>23/06/2015 11:38:05</timeStarted>
+    <creationDate>23/06/2015 16:23:20</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGD227KK\BTM\RC3\ID_022273\Technical Documents\BIN_LGD227AT-00-V10a-724-02-JUN-22-2015+3.zip</chronos>
+    <assignedTo>brisatc368.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>23/06/2015 14:08:06</timeStarted>
+    <creationDate>23/06/2015 12:05:01</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGD213KK\TCL\RC8\ID_022275\Technical Documents\BIN_LGD213cAT-00-V10a-334-020-JUL-28-2014+7.zip</chronos>
+    <assignedTo>brisatc365.lemes</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Issues DB</testType>
+    <timeStarted>23/06/2015 14:29:27</timeStarted>
+    <creationDate>19/06/2015 15:23:50</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGP875JB\BTM\QE0\ID_022279\Technical Documents\P875h10a.rar</chronos>
+    <assignedTo>brisatc373.rodrigues</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>23/06/2015 15:14:55</timeStarted>
+    <creationDate>23/06/2015 14:16:02</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH340L\PAN\QA2\ID_022270\Technical Documents\BIN_LGH340FAT-00-V10a-SCA-XXX-JUN-25-2015+0.zip</chronos>
+    <assignedTo>brisatc343.ferrero</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>23/06/2015 15:22:40</timeStarted>
+    <creationDate>23/06/2015 14:16:02</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH340L\PAN\QA2\ID_022270\Technical Documents\BIN_LGH340FAT-00-V10a-SCA-XXX-JUN-25-2015+0.zip</chronos>
+    <assignedTo>brisatc343.ferrero</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>23/06/2015 15:39:48</timeStarted>
+    <creationDate>23/06/2015 14:23:35</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGD100KK\BTM\RC3\ID_022295\Technical Documents\BIN_LGD100fAT-00-V10a-724-02-JUN-23-2015+2.zip</chronos>
+    <assignedTo>brisatc305.silva</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>23/06/2015 16:10:58</timeStarted>
+    <creationDate>23/06/2015 15:41:29</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH735L\ORD\QE1\ID_022271\Technical Documents\BIN_LGH735PAT-01-V09a-370-01-JUN-25-2015+0.zip</chronos>
+    <assignedTo>brisatc298.brandao</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Unit</testType>
+    <timeStarted>23/06/2015 14:23:35</timeStarted>
+    <creationDate>23/06/2015 14:23:35</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGD100KK\BTM\RC3\ID_022295\Technical Documents\BIN_LGD100fAT-00-V10a-724-02-JUN-23-2015+2.zip</chronos>
+    <assignedTo>brisatc305.silva</assignedTo>
+  </project>
+  <project>
+    <status>In progress</status>
+    <testType>Sanity</testType>
+    <timeStarted>24/06/2015 08:55:51</timeStarted>
+    <creationDate>23/06/2015 18:16:00</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGD100KK\BRA\RC5\ID_022297\Technical Documents\BIN_LGD100fAT-00-V10f-SCA-XXX-JUN-23-2015+0.zip</chronos>
+    <assignedTo>brisatc373.rodrigues</assignedTo>
+  </project>
+  <project>
+    <status>ALL PASSED</status>
+    <testType>Sanity</testType>
+    <timeStarted>24/06/2015 09:07:09</timeStarted>
+    <creationDate>23/06/2015 18:51:30</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH810L\CAP\RC1\ID_022299\Technical Documents\BIN_LGH810PRAT-01-V10a-330-110-MAY-19-2015+2.zip</chronos>
+    <assignedTo>brisatc365.lemes</assignedTo>
+  </project>
+</projects>

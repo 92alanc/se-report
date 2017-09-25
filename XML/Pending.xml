@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-->
+
+How a pending project should look like:
+
+<project>
+  <status>AVAILABLE</status>
+  <testType></testType>
+  <creationDate>03/08/1992 23:50</cretionDate>
+  <chronos>\\lgmcfs-sp\ChronosStorage\...</chronos>
+  <assignedTo></assignedTo>
+</project>
+
+<-->
+<projects>
+  <project>
+    <status>AVAILABLE</status>
+    <testType>SANITY</testType>
+    <creationDate>23/06/2015 17:04:46</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGH734L\COL\QE2\ID_022306\Technical Documents\BIN_LGH734AT-00-V10a-SCA-XXX-JUN-25-2015+0.zip</chronos>
+    <assignedTo>
+    </assignedTo>
+  </project>
+  <project>
+    <status>AVAILABLE</status>
+    <testType>SANITY</testType>
+    <creationDate>23/06/2015 16:23:20</creationDate>
+    <chronos>\\lgmcfs-sp\ChronosStorage\LGD227KK\BTM\RC3\ID_022273\Technical Documents\BIN_LGD227AT-00-V10a-724-02-JUN-22-2015+3.zip</chronos>
+    <assignedTo>
+    </assignedTo>
+  </project>
+</projects>

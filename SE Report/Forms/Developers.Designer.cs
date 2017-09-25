@@ -35,6 +35,8 @@
             this.Back = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -73,7 +75,7 @@
             // 
             this.Back.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Back.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Back.Location = new System.Drawing.Point(148, 299);
+            this.Back.Location = new System.Drawing.Point(157, 312);
             this.Back.Name = "Back";
             this.Back.Size = new System.Drawing.Size(116, 30);
             this.Back.TabIndex = 5;
@@ -103,12 +105,30 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Victor Lemes";
             // 
+            // label2
+            // 
+            this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(100, 23);
+            this.label2.TabIndex = 0;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(321, 287);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(101, 17);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "SE Report 9.1.2";
+            // 
             // Developers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(437, 341);
+            this.BackColor = System.Drawing.Color.GhostWhite;
+            this.ClientSize = new System.Drawing.Size(437, 381);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Back);
@@ -139,5 +159,7 @@
         private System.Windows.Forms.Button Back;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label4;
     }
 }

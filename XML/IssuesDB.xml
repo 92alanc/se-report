@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<issuesdb>
+<test TEST="Keyboard language">
+    Check if the keyboard preset language matches the device's language as required on GPRI
+  </test>
+  <test TEST="LG Smart World">
+    1. 'LG Smart World' app is available for Argentina, Brazil and Mexico (except for Claro and Telcel operators). All other countries should not have this app.
+	2. Factory reset the device and repeat the first procedure.
+  </test>
+  <test TEST="Band info (Qualcomm chipset devices only)">
+	Engineering menu > SVC Menu > Port Check Test > Enable | Run "bandInfo.py" on command prompt and compare the given band information with the device's spec found on http://collab.lge.com/main/display/SCAI/05.+MT+-+Models
+  </test>
+  <test TEST="Power-on tone">
+	Operator's power-on tone must play only during operator's power-on animation, not LG's
+  </test>
+  <test TEST="Operator apks and games">
+	Open and check if all operator apps and embedded games are working properly
+  </test>
+  <test TEST="Network Mode">
+    1. Check Network Mode String on GPRI and Network Mode Menu, then check if both are the same.
+    2. The option 2G/3G/4G or LTE must be "auto" or "automatico" at the end.		
+  </test>
+  <test TEST="Google folder">
+    [GMS below 3.0] The order of the apps in Google folder (home screen) must be as following: Chrome, Gmail, Google+, Maps, Play Music, Play Movies, Play Books, Play Newsstand, Play Games, Drive, YouTube, Photos, Hangouts
+	[GMS 3.0] The order of the apps must be Google Search, Chrome, Gmail, Maps, YouTube, Drive, Play Music, Play Movies, Hangouts, Photos
+	* To check whether it is GMS 3.0 or not, adb shell getprop ro.com.lge.mada
+  </test>
+</issuesdb>

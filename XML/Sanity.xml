@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sanity>
+  <test TEST="Wi-Fi">
+    Connect to a Wi-Fi network
+  </test>
+  <test TEST="Power On/Off">
+    Check if the operator's power on/off animation (if required in GPRI) is installed
+  </test>	
+  <test TEST="Wallpaper">
+    Check if all the operator wallpapers (if required in GPRI) are installed
+  </test>
+  <test TEST="UAP/UAS (User Agent Profile/String)">
+    On LG Browser, open xhaus.com/headers and compare the UAP/UAS to model's UAP on LG's database
+  </test>
+  <test TEST="Android Icon">
+    Check if each app has its own icon, not Android default
+  </test>
+  <test TEST="Operator APKs">
+    Check if all operator APKs (if required in GPRI) are installed, in order and working
+  </test>
+  <test TEST="Embedded games">
+    Check if all embedded games are installed and working properly as required in http://collab.lge.com/main/display/SCAI/05.+MT+-+Models. For D models, check http://10.193.225.22:8090/Views/View/Default.aspx
+  </test>
+  <test TEST="LG Smart World">
+    1. 'LG Smart World' app is available for Argentina, Brazil and Mexico (except for Claro and Telcel operators). All other countries should not have this app.
+    2. Factory reset the device and repeat the first procedure.
+  </test>
+  <test TEST="Network Mode">
+    1. Check Network Mode String on GPRI and Network Mode Menu, then check if both are the same.
+    2. The options 2G/3G/4G or LTE and 2G/3G must be "auto" or "automatico" at the end.		
+  </test>
+  <test TEST="Preset browser bookmarks">
+    Check if all the operator bookmarks are installed in LG Browser (if required in GPRI)
+  </test>
+  <test TEST="Preset browser home page">
+    If required in GPRI, check if LG Browser's home page is the same one as required by operator
+  </test>
+  <test TEST="SMS parameters">
+    Check if the SMS parameters are the same as required by operator
+  </test>
+  <test TEST="Cell broadcasting">
+    Check if cell broadcasting and its channels are according to GPRI
+  </test>
+  <test TEST="E-mail customisation">
+    Check if all e-mail preset accounts are configured (if required in GPRI)
+  </test>
+  <test TEST="QFuse">
+	Check if QFuse is enabled.
+	* Pass -> QFuse is enabled
+	* N/A -> QFuse is not accepted in the model under test
+	* Fail -> QFuse is accepted in the model, but is disabled
+	</test>
+  <test TEST="E-mail (send)">
+    Send an e-mail
+  </test>
+  <test TEST="E-mail (receive)">
+    Receive an e-mail
+  </test>
+  <test TEST="Bluetooth">
+    Connect to another device via Bluetooth
+  </test>
+  <test TEST="Camera (picture)">
+    Take a picture
+  </test>
+  <test TEST="Camera (video)">
+    Record a video
+  </test>
+  <test TEST="Gallery">
+    Check if the picture and the video taken are stored in Gallery
+  </test>
+  <test TEST="MP3">
+    Play, pause, rewind and fast-forward an MP3 file
+  </test>
+  <test TEST="Radio">
+    Test the FM radio
+  </test>
+  <test TEST="Home screen">
+    Check if all apps on home screen are working
+  </test>
+  <test TEST="Notification bar">
+    Slide down the notification bar and test all functions 
+  </test>
+  <test TEST="Applications menu">
+    Test all apps
+  </test>
+  <test TEST="FOTA menu">
+    Check if the 2nd option under "Software upgrade" is checked
+  </test>
+  <test TEST="Flashlight widget">
+    Check if the flashlight widget is working properly. (Note: if the device under test does not have this widget, download the Flashlight app on play store and test the widget
+  </test>
+  <test TEST="Google TTS">
+    Check Google Text-to-Speech (voice search) is working
+  </test>
+  <test TEST="Google folder">
+    [GMS below 3.0] The order of the apps in Google folder (home screen) must be as following: Chrome, Gmail, Google+, Maps, Play Music, Play Movies, Play Books, Play Newsstand, Play Games, Drive, YouTube, Photos, Hangouts
+	[GMS 3.0] The order of the apps must be Google Search, Chrome, Gmail, Maps, YouTube, Drive, Play Music, Play Movies, Hangouts, Photos
+	* To check whether it is GMS 3.0 or not, adb shell getprop ro.com.lge.mada
+  </test>
+  <test TEST="3G">
+    Visit a website while connected to a 3G network
+  </test>
+  <test TEST="4G">
+    1. With a real SIM card, activate flex test with the project's MCC/MNC
+	2. Go to Settings > Mobile networks > Network model
+	3. Check if the device's network mode matches the project's LTE mode as described in GPRI
+	4. Visit a website while connected to a 4G network
+  </test>
+  <test TEST="Data network icon">
+    Check if the data network icon in the notifications bar disappears when you turn off the data connection or connect to a Wi-Fi network
+  </test>
+  <test TEST="SMS (send)">
+    Send an SMS
+  </test>
+  <test TEST="SMS (receive)">
+    Receive an SMS
+  </test>
+  <test TEST="Call outgoing">
+    Make a phone call
+  </test>
+  <test TEST="Call incoming">
+    Receive a phone call
+  </test>
+</sanity>
